@@ -1,0 +1,52 @@
+.recipe-header {
+    position: relative;
+  }
+  
+  .case {
+
+    border: 2px solid blue;
+  }
+
+  .recipe-image {
+
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+  }
+
+  .recipe-infos {
+
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+  
+  .recipe-title {
+    font-size: 1.75rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+  }
+  
+  .ingredients-list .badge {
+    background-color: #007bff;
+    font-size: 1rem;
+  }
+  
+  .instructions-list {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .list-group-item {
+    font-size: 1.1rem;
+    background-color: transparent;
+  }
+  
+  .instructions-list .list-group-item::before {
+    content: '— ';
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .badge-pill {
+    border-radius: 20px;
+  }
